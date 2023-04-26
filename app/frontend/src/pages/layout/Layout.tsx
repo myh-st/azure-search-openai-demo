@@ -26,11 +26,11 @@ const Layout = () => {
                             </li>
                             <li className={styles.headerNavLeftMargin}>
                                 <NavLink to="/ul" className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
-                                    Index your data
+                                    Upload your data
                                 </NavLink>
                             </li>
                             <li className={styles.headerNavLeftMargin}>
-                                <a href="https://aka.ms/entgptsearch" target={"_blank"} title="Github repository link">
+                                {/* <a href="https://aka.ms/entgptsearch" target={"_blank"} title="Github repository link">
                                     <img
                                         src={github}
                                         alt="Github logo"
@@ -39,7 +39,7 @@ const Layout = () => {
                                         height="20px"
                                         className={styles.githubLogo}
                                     />
-                                </a>
+                                </a> */}
                             </li>
                         </ul>
                     </nav>

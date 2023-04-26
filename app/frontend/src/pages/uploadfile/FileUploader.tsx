@@ -80,7 +80,7 @@ const FileUploader = () => {
     return (
         <div className={styles.uploadContainer}>
             <div className={styles.uploadTopSection}>
-                <h1 className={styles.uploadTitle}>Index your data</h1>
+                <h1 className={styles.uploadTitle}>Upload your data</h1>
                 <div className={styles.fileInputContainer}>
                     <label htmlFor="file-upload" className={styles.uploadButton}>
                         {selectedFiles ? `Upload ${selectedFiles.length} files` : "Choose File to upload"}

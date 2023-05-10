@@ -27,9 +27,6 @@ jobs:
           python -m venv venv
           source venv/bin/activate
           
-      - name: Navigate to app/backend folder
-        run: cd azure-search-openai-demo/app/backend
-
       - name: Install dependencies
         run: pip install -r requirements.txt
         

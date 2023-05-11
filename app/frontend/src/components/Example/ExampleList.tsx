@@ -13,7 +13,7 @@ const EXAMPLES: ExampleModel[] = [
         value: "How the AI help to improve the customer experience in the contact center solutions?"
     },
     { text: "How to apply the data analytics to understand customer need?", value: "How to apply the data analytics to understand customer need?" },
-    { text: "How the ChatGPT help driving the sales recenue?", value: "How the ChatGPT help driving the sales recenue?" }
+    { text: "How the ChatGPT help driving the sales revenue in company?", value: "How the ChatGPT help driving the sales revenue in company?" }
 ];
 
 interface Props {

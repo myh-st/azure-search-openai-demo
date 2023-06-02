@@ -5,6 +5,15 @@
     "environmentName": {
       "value": "${AZURE_ENV_NAME}"
     },
+    "appServicePlanName": {
+      "value": "${AZURE_ASP_NAME}"
+    },
+    "backendServiceName": {
+      "value": "${AZURE_BACKEND_NAME}"
+    },
+    "resourceGroupName": {
+      "value": "${AZURE_RG_NAME}"
+    },
     "location": {
       "value": "${AZURE_LOCATION}"
     },
